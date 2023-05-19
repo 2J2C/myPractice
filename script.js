@@ -7,7 +7,7 @@ const getRandomInt = function (scale) {
 const generateCircle = function (e) {
   let newCircle = document.createElement("div"); //create a new element to be a circle
 
-  newCircle.classList.add("circle"); //append the new element to 'circle' class
+  newCircle.classList.add("circle"); //append the element to 'circle' class
 
   let circleList = document.getElementsByClassName("circle");
   let circleNumber = circleList.length;

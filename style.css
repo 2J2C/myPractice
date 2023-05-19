@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#paper {
+  position: absolute;
+  width: 99.9vw;
+  height: 99.7vh;
+  border: 1px solid black;
+  background-color: #f1f0ec;
+  transition: all ease 1s;
+}
